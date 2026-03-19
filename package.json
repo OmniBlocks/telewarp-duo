@@ -10,5 +10,8 @@
   "author": "",
   "license": "AGPL-3.0-or-later",
   "packageManager": "pnpm@10.32.1",
-  "type": "module"
+  "type": "module",
+  "dependencies": {
+    "modern-normalize": "^3.0.1"
+  }
 }

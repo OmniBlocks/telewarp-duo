@@ -1,0 +1,40 @@
+import styles from "./About.module.css";
+function App() {
+  return (
+    <div className={styles.page}>
+      <h1>About TeleWarp</h1>
+      <h2>This is an experiment</h2>
+      <p>TeleWarp is in an alpha stage of development.</p>
+      <p>
+        We may delete all projects at any given moment during this phase of
+        development. While we try to run database migrations, sometimes it's not
+        possible to do so. Please back up your projects.
+      </p>
+      <h2>Licensing</h2>
+      <p>
+        TeleWarp is licensed under the{" "}
+        <a
+          href="https://www.gnu.org/licenses/gpl-3.0.en.html"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          GNU General Public License v3.0
+        </a>
+        .
+      </p>
+      <p>
+        Projects are under a CC-BY-SA 4.0 license. (Fine print: You can waive
+        the licence to make your project similar to a "public domain" program,
+        but we don't recommend doing so.)
+      </p>
+      <p>
+        <strong>
+          WARNING: If you lose millions of dollars because of a bug in TeleWarp,
+          we are not responsible for that. See the license for more information.
+        </strong>
+      </p>{" "}
+    </div>
+  );
+}
+
+export default App;
