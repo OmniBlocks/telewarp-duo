@@ -12,6 +12,8 @@ importers:
         specifier: ^3.0.1
         version: 3.0.1
 
+  packages/bbpl: {}
+
   packages/telewarp-back:
     dependencies:
       '@adonisjs/auth':
@@ -102,6 +104,9 @@ importers:
 
   packages/telewarp-front:
     dependencies:
+      bbpl:
+        specifier: workspace:*
+        version: link:../bbpl
       modern-normalize:
         specifier: ^3.0.1
         version: 3.0.1

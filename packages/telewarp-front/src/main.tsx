@@ -1,6 +1,6 @@
 import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider } from "react-router";
-// @ts-expect-error this is a css only library below
+// @ts-expect-error because this is a css only library below
 import "modern-normalize";
 import "./index.css";
 import NotFound from "./views/NotFound";
@@ -11,7 +11,6 @@ const router = createBrowserRouter([
   {
     path: "/",
     Component: MainLayout,
-    errorElement: <p>Oops! TeleWarp crashed</p>,
     children: [
       {
         index: true,

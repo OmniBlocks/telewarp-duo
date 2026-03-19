@@ -1,5 +1,6 @@
+import styles from "./Home.module.css";
 function App() {
-  return <p>TeleWarp</p>;
+  return <div className={styles.hero}>Featured Projects</div>;
 }
 
 export default App;

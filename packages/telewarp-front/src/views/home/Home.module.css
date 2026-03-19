@@ -1,0 +1,8 @@
+.hero {
+  background: rgb(148, 52, 151);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+}
