@@ -1,11 +1,13 @@
-/* --- Theme Variables (Replicating your SCSS map) --- */
+@import "modern-normalize";
+@import "@fontsource-variable/arimo";
+
 :root {
   --menu-bar: #b945c9;
   --bg: white;
   --text-color: #121212;
   --black-transparent: rgba(0, 0, 0, 0.15);
   --link: rgb(55, 88, 236);
-  --menu-bar-height: 50px;
+  --menu-bar-height: 3rem;
 }
 
 body.dark {
@@ -18,8 +20,6 @@ body.dark {
 
 /* --- Base Layout --- */
 body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: var(--bg);
+  font-family: "Helvetica Neue", Helvetica, Arial, "Arimo Variable", sans-serif;
   color: var(--text-color);
-  margin: 0;
 }

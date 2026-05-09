@@ -20,6 +20,10 @@ export default function MainLayout() {
       </header>
 
       <div className={styles.content}>
+        <div className={styles.news}>
+          TeleWarp is a work-in-progress project. Please back up your projects
+          as they may be deleted during rewrites.
+        </div>
         <main>
           <Outlet />
         </main>
@@ -27,11 +31,19 @@ export default function MainLayout() {
           <div className={styles.footerContent}>
             <div className={styles.footerColumns}>
               <div className={styles.footerSection}>
-                <Link to="/about">About Us</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/about">About</Link>
+                <Link to="/explore">Explore Projects</Link>
+                <Link to="/credits">Credits</Link>
+              </div>
+              <div className={styles.footerSection}>
+                <Link to="/terms">Terms of Service</Link>
+                <Link to="/privacy">Privacy Policy</Link>
               </div>
             </div>
-            <p className={styles.footerText}>© 2026 Telewarp</p>
+            <p className={styles.footerText}>
+              © {new Date().getFullYear()} TeleWarp developers. Projects
+              uploaded to TeleWarp are under a CC-BY-SA 4.0 license.
+            </p>
           </div>
         </footer>
       </div>
