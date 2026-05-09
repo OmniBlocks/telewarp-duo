@@ -57,7 +57,7 @@
   },
   "dependencies": {
     "@adonisjs/auth": "^10.0.0",
-    "@adonisjs/core": "^7.1.1",
+    "@adonisjs/core": "^7.3.2",
     "@adonisjs/cors": "^3.0.0",
     "@adonisjs/lucid": "^22.1.1",
     "@adonisjs/session": "^8.0.0",
@@ -69,7 +69,7 @@
     "luxon": "^3.7.2",
     "reflect-metadata": "^0.2.2",
     "telewarp-front": "workspace:*",
-    "vite": "^8.0.1"
+    "vite": "^8.0.5"
   },
   "hotHook": {
     "boundaries": [
